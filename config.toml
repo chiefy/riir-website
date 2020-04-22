@@ -1,0 +1,88 @@
+baseurl = "http://www.example.com"
+title = "Rail II River Brewing"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = ""
+
+[params]
+    author = ""
+    description = ""
+    keywords = "brewing,brewery,ravena,new york,local"
+    info = "Rail II River Brewing"
+    avatarurl = "images/logo.jpg"
+
+    dateformat = "January 2, 2006"
+
+    hideFooter = true
+    hideCredits = true
+    hideCopyright = false
+    since = 2020
+
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "light"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+    # Custom JS
+    custom_js = []
+
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+#[params.fathomAnalytics]
+#    siteID = "ABCDE"
+#    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+#    serverURL = "analytics.example.com"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 1
+    url = "https://www.facebook.com/pages/category/Brewery/Rail-to-River-Brewing-108276510717179/"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "T-Shirt"
+            weight = 1
+            url = "shirt/"
+
+#            [[languages.en.menu.main]]
+#            name = "Blog"
+#            weight = 2
+#            url = "posts/"
+
+#            [[languages.en.menu.main]]
+#            name = "Contact Us"
+#            weight = 5
+#            url = "contact/"
+
+
